@@ -1,0 +1,52 @@
+.DIVV { 
+    background-color: #020912;
+    width:50%;
+    height:10000px;
+    float: left;
+
+}
+
+
+.cards {
+    perspective: 500px;
+  } .card {
+    box-shadow: 112px 54px 41px 16px rgba(0,0,0,0.75);
+    background: transparent;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    position: relative;
+    transform: translateZ(10px) rotateX(20deg) rotateY(20deg);
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: all 3s;
+  } .card:hover {
+    transform: translateZ(0px) rotateX(0deg) rotateY(0deg);
+    box-shadow: 1px 10px 30px 11px rgba(50, 37, 122, 0.54);
+  } 
+
+.divider { 
+   height:1000px;
+   width:05px;
+   background-color: rgb(255, 255, 255);
+   border-radius: 1000px;
+   float: left;
+   
+}
+
+.BIGBUTTON { 
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border-width: 0px;
+  border-radius: 10px;
+  width:400px;
+  height: 70px;
+  margin-bottom: 100px;
+}
+
+.DIVV2 { 
+  background-color: #020912;
+  width:50%;
+  height:10000px;
+  float: right;
+
+}
